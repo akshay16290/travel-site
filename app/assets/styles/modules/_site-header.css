@@ -14,7 +14,7 @@
     background-color: rgba($mainBlue, .3);
 
     &--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: rgba($mainBlue, .85);
     }
   }
 
@@ -39,7 +39,7 @@
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.57);
+        transform: scale(.55);
       }
     }
   }
